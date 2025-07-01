@@ -3,8 +3,8 @@
 filepath="$(realpath $0)"
 mypath="$(dirname "$filepath")"
 cd $mypath
-GIT_EXEC_PATH=/app/.apt/usr/lib/git-core
-export GIT_EXEC_PATH=/app/.apt/usr/lib/git-core
+# GIT_EXEC_PATH=/app/.apt/usr/lib/git-core
+# export GIT_EXEC_PATH=/app/.apt/usr/lib/git-core
 
 git clone $REPO_URL BOT
 # git clone $REPO_URL2 BOT2
