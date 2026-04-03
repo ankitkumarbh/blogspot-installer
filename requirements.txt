@@ -3,6 +3,7 @@ telethon
 wheel
 requests
 curl_cffi
+motor
 sqlalchemy==1.3.23
 python-telegram-bot
 psutil
@@ -37,6 +38,8 @@ pycparser
 python-dotenv
 rsa
 kurigram
+pykeyboard-kurigram
+pytgcrypto
 tgcrypto
 uvloop
 redis
